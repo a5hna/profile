@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
+
+body {
+  font-family: 'Lato';
+  color: rgb(4,39,35);
+  background-color: #bdb5ae;
+  text-align: center;
+}
+
+h1 h2 {
+  font-family:  'Oswald';
+  color: #292723
+  text-align: center;
+  margin: 0;
+}
+
+.icons li a i {
+  color: rgb(41,39,35);
+  font-size: 50px;
+  padding: 22px;
+}
+
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+ul.icons {
+  padding: 0
+}
+
+li a i:hover {
+  font-size:51px;
+  color: rgb(0,0,0);
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+div.card {
+  border-radius: 5px;
+  background-color:   rgb(237,238,233);
+  margin: 25px 20px;
+  padding: 10px;
+  box-shadow: 5px 4px 5px 0px rgba(54,71,69,1);
+  width: auto;
+}
+
+img {
+  border-radius: 5px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
